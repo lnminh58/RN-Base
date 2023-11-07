@@ -1,20 +1,20 @@
-import {AuthRoutes} from './routes';
+import {AuthRoutes} from './routes'
 
-import SignIn from '../screens/SignIn';
-import SignUp from '../screens/SignUp';
-import ForgotPassword from '../screens/ForgotPassword';
+import SignIn from '../screens/SignIn'
+import SignUp from '../screens/SignUp'
+import ForgotPassword from '../screens/ForgotPassword'
 
 export const AUTH_SCREENS = [
   {
     name: AuthRoutes.SignIn,
-    component: SignIn,
+    component: SignIn
   },
   {
     name: AuthRoutes.SignUp,
-    component: ForgotPassword,
+    component: ForgotPassword
   },
   {
     name: AuthRoutes.ForgotPassword,
-    component: SignUp,
-  },
-];
+    component: SignUp
+  }
+]

@@ -1,7 +1,7 @@
 export enum MainRoutes {
-  Home = 'Home',
+  Home = 'Home'
 }
 
 export type MainStackParamList = {
-  [MainRoutes.Home]: any;
-};
+  [MainRoutes.Home]: any
+}

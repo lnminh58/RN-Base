@@ -1,11 +1,10 @@
-/* eslint-disable max-len */
-import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+import {createSlice, PayloadAction} from '@reduxjs/toolkit'
 
 interface authState {
-  token?: string;
+  token?: string
 }
 
-const initialState: authState = {};
+const initialState: authState = {}
 
 const authSlice = createSlice({
   name: 'auth',
@@ -14,11 +13,11 @@ const authSlice = createSlice({
     login: (state, action: PayloadAction<Partial<authState>>) => {
       return {
         ...state,
-        ...action.payload,
-      };
-    },
-  },
-});
+        ...action.payload
+      }
+    }
+  }
+})
 
-export const {login} = authSlice.actions;
-export default authSlice.reducer;
+export const {login} = authSlice.actions
+export default authSlice.reducer

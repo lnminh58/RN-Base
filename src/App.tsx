@@ -5,23 +5,23 @@
  * @format
  */
 
-import React from 'react';
-import {SafeAreaView, StyleSheet} from 'react-native';
+import React from 'react'
+import {SafeAreaView, StyleSheet} from 'react-native'
 
-import {AppNavigator} from './routes';
+import {AppNavigator} from './routes'
 
 function App(): JSX.Element {
   return (
     <SafeAreaView style={styles.container}>
       <AppNavigator />
     </SafeAreaView>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-  },
-});
+    flex: 1
+  }
+})
 
-export default App;
+export default App

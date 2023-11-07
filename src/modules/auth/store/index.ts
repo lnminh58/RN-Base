@@ -1,3 +1,3 @@
-import authReducer from './slice/auth';
+import authReducer from './slice/auth'
 
-export {authReducer};
+export {authReducer}
