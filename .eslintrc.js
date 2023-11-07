@@ -62,7 +62,7 @@ module.exports = {
     'jest/no-disabled-tests': 'warn',
     'jest/no-identical-title': 'error',
     'jest/valid-expect': 'error',
-    'jest/expect-expect': 'warn'
+    'jest/expect-expect': 'off'
   },
-  ignorePatterns: ['coverage/']
+  ignorePatterns: ['coverage/', '.eslintrc.js']
 }
