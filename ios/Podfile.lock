@@ -496,6 +496,8 @@ PODS:
   - RNGestureHandler (2.13.4):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
+  - RNLocalize (3.0.3):
+    - React-Core
   - RNScreens (3.27.0):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -572,6 +574,7 @@ DEPENDENCIES:
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNCMaskedView (from `../node_modules/@react-native-masked-view/masked-view`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNLocalize (from `../node_modules/react-native-localize`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -680,6 +683,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-masked-view/masked-view"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNLocalize:
+    :path: "../node_modules/react-native-localize"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   Yoga:
@@ -741,6 +746,7 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: 3a8f7145d17cdd9f88e7b77666c94a09e4f759c8
   RNCMaskedView: f7c74478c83c4fdfc5cf4df51f80c0dd5cf125c6
   RNGestureHandler: 6e46dde1f87e5f018a54fe5d40cd0e0b942b49ee
+  RNLocalize: 7ce27517894956a226aa6d614786802d253a0a0a
   RNScreens: 3c2d122f5e08c192e254c510b212306da97d2581
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: b76f1acfda8212aa16b7e26bcce3983230c82603

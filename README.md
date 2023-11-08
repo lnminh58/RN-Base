@@ -19,3 +19,7 @@
 - _debugger_
 
 `yarn add react-native-flipper redux-flipper`
+
+<h3>Multi Language</h3>
+
+`yarn add react-i18next i18next react-native-localize`
