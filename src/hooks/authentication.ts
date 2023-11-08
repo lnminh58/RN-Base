@@ -1,5 +1,5 @@
 import {useSelector} from 'react-redux'
-import {RootState} from '../store'
+import {RootState} from 'src/store'
 
 export const useIsAuthenticated = () => {
   const token = useSelector((state: RootState) => state.auth?.token)

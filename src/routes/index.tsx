@@ -3,10 +3,11 @@ import {NavigationProp, useNavigation} from '@react-navigation/native'
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import {NavigationContainer} from '@react-navigation/native'
 
+import {AUTH_SCREENS} from 'src/modules/auth/routes'
+import {MAIN_SCREENS} from 'src/modules/main/routes'
+import {useIsAuthenticated} from 'src/hooks/authentication'
+
 import {AppStackParamList} from './routes'
-import {AUTH_SCREENS} from '../modules/auth/routes'
-import {MAIN_SCREENS} from '../modules/main/routes'
-import {useIsAuthenticated} from '../hooks/authentication'
 
 const AppStack = createNativeStackNavigator<AppStackParamList>()
 

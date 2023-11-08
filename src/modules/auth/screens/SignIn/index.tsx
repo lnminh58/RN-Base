@@ -1,7 +1,7 @@
 import React from 'react'
 import {View, Text, TouchableOpacity} from 'react-native'
 import {useDispatch} from 'react-redux'
-import {login} from '../../store/slice/auth'
+import {login} from 'src/modules/auth/store/slice/auth'
 
 const SignIn = () => {
   const dispatch = useDispatch()

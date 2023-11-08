@@ -1,5 +1,5 @@
-import {AuthRoutes, AuthStackParamList} from '../modules/auth/routes/routes'
-import {MainRoutes, MainStackParamList} from '../modules/main/routes/routes'
+import {AuthRoutes, AuthStackParamList} from 'src/modules/auth/routes/routes'
+import {MainRoutes, MainStackParamList} from 'src/modules/main/routes/routes'
 
 export const AppRoutes = {
   ...AuthRoutes,

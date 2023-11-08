@@ -11,7 +11,7 @@ import {
 } from 'redux-persist'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
-import {authReducer} from '../modules/auth/store'
+import {authReducer} from 'src/modules/auth/store'
 
 const rootPersistConfig = {
   key: 'root',

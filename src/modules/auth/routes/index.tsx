@@ -1,8 +1,8 @@
 import {AuthRoutes} from './routes'
 
-import SignIn from '../screens/SignIn'
-import SignUp from '../screens/SignUp'
-import ForgotPassword from '../screens/ForgotPassword'
+import SignIn from 'src/modules/auth/screens/SignIn'
+import SignUp from 'src/modules/auth/screens/SignUp'
+import ForgotPassword from 'src/modules/auth/screens/ForgotPassword'
 
 export const AUTH_SCREENS = [
   {
