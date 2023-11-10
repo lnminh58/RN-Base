@@ -4,11 +4,20 @@
 
 `yarn add -D @react-native-community/eslint-config eslint-config-airbnb-typescript eslint-plugin-import`
 
+<h3>Utils</h3>
+
+- _lodash, axios, dayjs_
+
+`yarn add lodash @types/lodash axios dayjs`
+
 <h3>Navigation</h3>
 
 - _Core_
 
 `yarn add @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context`
+
+- _stack navigator_
+  `yarn add @react-navigation/native-stack @react-native-masked-view/masked-view react-native-gesture-handler`
 
 <h3>Redux</h3>
 
